@@ -3,9 +3,9 @@ import '../static/css/home.css'
 
 const Home = () => {
   return (
-    <div>
+    <div className='container'>
       <div className='navbar'>
-        <h3>GV</h3>
+        <h3>GABY VAZQUEZ</h3>
         <ul>
           <li>Home</li>
           <li>About</li>
@@ -14,8 +14,13 @@ const Home = () => {
         </ul>
       </div>
       <div className='intro'>
-        <h1> Hey there, <br/> I'm Gaby! </h1>
-        <h2> Software <br/> Engineer  </h2>
+        <div className='left'>
+          <h1> Hey there, <br/> I'm Gaby! </h1>
+          <h2> Software <br/> Engineer  </h2>
+        </div>
+        <div className='right'>
+          
+        </div>
       </div>
     </div>
   )
