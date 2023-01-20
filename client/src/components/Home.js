@@ -8,10 +8,10 @@ const Home = () => {
       <div className='navbar'>
         <h3>GABY VAZQUEZ</h3>
         <ul>
-          <Link/>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <li>Home</li>
+          <Link to='/about'> About </Link>
+          <Link to='/projects'> Projects </Link>
+          <Link to='/contact'> Contact </Link>
         </ul>
       </div>
       <div className='intro'>
@@ -20,7 +20,7 @@ const Home = () => {
           <h2> Software <br/> Engineer  </h2>
         </div>
         <div className='right'>
-          
+          <img src='client/src/static/img/Untitled_Artwork.png' alt='picture of me!'/>
         </div>
       </div>
     </div>
