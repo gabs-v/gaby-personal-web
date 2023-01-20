@@ -1,5 +1,6 @@
 import React from 'react'
 import '../static/css/home.css'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -7,7 +8,7 @@ const Home = () => {
       <div className='navbar'>
         <h3>GABY VAZQUEZ</h3>
         <ul>
-          <li>Home</li>
+          <Link/>
           <li>About</li>
           <li>Projects</li>
           <li>Contact</li>
