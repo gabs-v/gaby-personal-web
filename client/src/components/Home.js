@@ -9,10 +9,18 @@ const Home = () => {
       <div className='navbar'>
         <h3>GABY VAZQUEZ</h3>
         <ul>
-        <Link to='/'> Home </Link>
-          <Link to='/about'> About </Link>
-          <Link to='/projects'> Projects </Link>
-          <Link to='/contact'> Contact </Link>
+          <li>
+            <Link to='/'> Home </Link>
+          </li>
+          <li>
+            <Link to='/about'> About </Link>
+          </li>
+          <li>
+            <Link to='/projects'> Projects </Link>
+          </li>
+          <li>
+            <Link to='/contact'> Contact </Link>
+          </li>
         </ul>
       </div>
       <div className='intro'>
@@ -20,7 +28,9 @@ const Home = () => {
           <h1> Hey there, <br/> I'm Gaby! </h1>
           <h2> Software <br/> Engineer  </h2>
         </div>
-        <img src={picture} alt='picture of me'/>
+        <div className='right'>
+          <img src={picture} alt='picture of me'/>
+        </div>
       </div>
     </div>
   )

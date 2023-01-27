@@ -13,30 +13,34 @@ ul{
     width: 70%;
     display: flex;
     justify-content: space-around;
+    list-style-type: none;
 }
+
 
 h3{
     width: 30%;
     font-size: x-large;
     margin-left: 1em;
 }
+
 .intro{
     display: flex;
     margin-top: .5em;
+    justify-content: space-around;
+
 }
 .left{
     font-size: xxx-large;
     line-height: 2.5em;
     margin-left: 1em;
-    width: 70%;
-    background-color: blueviolet;
 }
+
 h2{
     line-height: 1em;
 }
 
 img{
-    width: 25em;
-    height: 25em;
+    width: 30em;
+    height: 30em;
     border-radius: 50%;
 }
