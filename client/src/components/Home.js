@@ -10,16 +10,16 @@ const Home = () => {
         <h3>GABY VAZQUEZ</h3>
         <ul>
           <li>
-            <Link to='/'> Home </Link>
+            <Link className="currentPage" to='/'> Home </Link>
           </li>
           <li>
-            <Link to='/about'> About </Link>
+            <Link className='page' to='/about'> About </Link>
           </li>
           <li>
-            <Link to='/projects'> Projects </Link>
+            <Link className='page' to='/projects'> Projects </Link>
           </li>
           <li>
-            <Link to='/contact'> Contact </Link>
+            <Link className='page' to='/contact'> Contact </Link>
           </li>
         </ul>
       </div>
