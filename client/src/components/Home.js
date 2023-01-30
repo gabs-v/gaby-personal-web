@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className='container'>
       <div className='navbar'>
-        <h3>GABY VAZQUEZ</h3>
+        <h3>GABY <br/> VAZQUEZ</h3>
         <ul>
           <li>
             <Link className="currentPage" to='/'> Home </Link>
